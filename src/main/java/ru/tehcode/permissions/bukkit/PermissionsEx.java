@@ -29,6 +29,10 @@ public class PermissionsEx extends JavaPlugin {
     protected static final Logger logger = Logger.getLogger("Minecraft");
     
     public void onEnable() {
-        logger.log(Level.INFO, "[PermissionsEXBridge] v" + this.getDescription().getVersion() + " enabled");
+        logger.log(Level.INFO, "[PermissionsEXBridge] version" + this.getDescription().getVersion() + " enabled");
+    }
+    
+    public void onDisable() {
+        logger.log(Level.INFO, "[PermissionsEXBridge] version" + this.getDescription().getVersion() + " disabled");
     }
 }
