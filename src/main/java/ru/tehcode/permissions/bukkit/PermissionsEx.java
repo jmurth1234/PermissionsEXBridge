@@ -34,6 +34,7 @@ public class PermissionsEx extends JavaPlugin {
 
     public void onEnable() {
         logger.log(Level.INFO, "[PermissionsEXBridge] version" + this.getDescription().getVersion() + " enabled");
+        permissionsManager = new PermissionManager();
     }
 
     public void onDisable() {

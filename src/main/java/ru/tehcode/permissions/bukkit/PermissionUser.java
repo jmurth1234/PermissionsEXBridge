@@ -4,10 +4,16 @@
  */
 package ru.tehcode.permissions.bukkit;
 
+import org.bukkit.entity.Player;
+
 /**
  *
  * @author Ryan
  */
-class PermissionUser {
+public class PermissionUser {
+
+    public PermissionUser(Player player) {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
     
 }
