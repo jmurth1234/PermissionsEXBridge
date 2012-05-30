@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package ru.tehcode.permissions.bukkit;
 
 import org.bukkit.entity.Player;
@@ -11,9 +7,11 @@ import org.bukkit.entity.Player;
  * @author Ryan
  */
 public class PermissionUser {
+    Player player;
 
     public PermissionUser(Player player) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        this.player = player;
     }
+    
     
 }
